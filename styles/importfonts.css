@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "MullerBold";
+  src: url("../fonts/MullerBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "MullerRegular";
+  src: url("../fonts/MullerRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: "MullerMedium";
+  src: url("../fonts/MullerMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "VisbyCFBold";
+  src: url("../fonts/VisbyCFBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "VisbyCFExtraBold";
+  src: url("../fonts/VisbyCFExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "VisbyCFHeavy";
+  src: url("../fonts/VisbyCFHeavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "VisbyCFLight";
+  src: url("../fonts/VisbyCFLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "VisbyCFThin";
+  src: url("../fonts/VisbyCFThin.otf") format("opentype");
+}

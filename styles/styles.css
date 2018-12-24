@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    background: #63c9c4; /* Для старых браузров */
+    background-image: url(../img/top.png), linear-gradient(to top, #63c9c4, #f9e9a7);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 1080px;
+    padding-left: 180px;
+    position: relative;
+}
+
+header .logo {
+	width: 200px;
+	height: 100px;
+	background-color: white;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	margin-top: -20px;
+	transform: rotate(-7deg);
+	background-position: center 75%;
+}
+
+header .subtitle {
+	margin-top: 193.14px;
+	font-size: 2rem;
+	color: #44a09b;
+	font-family: MullerBold;
+	margin-bottom: 2.625rem;
+}
+
+header .title {
+	font-size: 3.875rem;
+	font-family: MullerRegular;
+	color: black;
+	width: 63.2%;
+	max-width: 846px;
+}
+.scroll {
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	right: 50%;
+	left: 50%;
+	bottom: 10px;
+	width: 120px;
+	font-family: VisbyCFHeavy;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 47px;
+	border-top:	 42px solid white;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+}
+.triangle:after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 12px;
+	margin-bottom: 47px;
+	left: 44px;
+	border-top: 22px solid #6acac3;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+}
+
+.regist {
+	position: absolute;
+	display: flex;
+	left: 0;
+	margin-top: 76px;
+	padding-left: 180px;
+	background-color: white;
+	color: #ff8141;
+	width: 640px;
+	height: 212px;
+	font-size: 1.75rem;
+	border-radius: 0 106px 106px 0;
+	flex-direction: column;
+	justify-content: center;
+}
+.regist label {
+	margin-bottom: 1rem;
+	font-family: MullerMedium;
+}
+.regist-button {
+	display: flex;
+	font-size: 2.125rem;
+	background-color: #ff8141;
+	width: 494px;
+	height: 66px;
+	border-radius: 33px;
+}
+.regist-button a {
+	margin: auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: MullerBold;
+	color: white;
+}
+main { 
+	display: flex;
+	flex-direction: row;
+}
+main .video {
+	position: relative;
+	min-width: 900px;
+	width: 56%;
+	max-width: calc(100%-840px);
+}
+main .video img.prew {
+	width: 100%;
+}
+main .video img.arrow {
+	width: 26%;
+	position: absolute;
+	top: 53%;
+	left: 54%;
+	z-index: 2;
+}
+main .content {
+    width: 29%;
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	padding-left: 120px;
+}
+main .content h2 {
+	font-family: VisbyCFBold;
+	font-size: 2.625rem;
+	max-width: 460px;
+	color: #3a4a62;
+	margin-bottom: 2rem;
+}
+main .content li {
+	font-family: VisbyCFLight;
+	font-size: 1.375rem;
+	color: #575656;
+	margin-bottom: 0.8rem;
+	position: relative;
+	list-style: none;
+}
+main .content li:before {
+  content: '';
+  position: absolute;
+  left: -37px;
+  bottom: -27.5px;
+  right: 9.5px;
+  top: 10px;
+  height: 9px;
+  width: 9px;
+  background: white;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+main .content li:after {
+  content: '';
+  background: #fc584b;
+  position: absolute;
+  left: -35px;
+  top: 10px;
+  height: 9px;
+  width: 9px;
+  transform: rotate(45deg);
+  z-index: 0;
+}
+.heart-label {
+	font-family: VisbyCFThin;
+	font-size: 1.375rem;
+	color: #575656;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+    position: relative;
+}
+footer {
+	height: 200px;
+	background-color: #273d50;
+	font-size: 3.476rem;
+	display: flex;
+}
+footer p {
+	margin: auto;
+	text-transform: uppercase;
+	color: white;
+	font-family: VisbyCFExtraBold;
+}
+.heart-label:before, .heart-label:after {
+	position: absolute;
+	content: "";
+	left: -26px;
+	top: 5px;
+	width: 10px;
+	height: 18px;
+	background: #fc5547;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+.heart-label:after {
+	left: -36px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin :100% 100%;
+}
+
+.playon {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.64);
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: 80% 80%; 
+	top: calc(50% - 90px);
+	left: calc(50% - 90px);
+	z-index: 0;
+}
+
+.playon .triangle {
+	margin-left: 76px;
+	margin-top: 66px;
+	width: 0;
+	height: 0;
+	border-left: 44px solid white;
+	border-top: 26px solid transparent;
+	border-bottom: 26px solid transparent;
+	z-index: 1;
+}
+
+.playon .triangle:after {
+	content: none;
+}

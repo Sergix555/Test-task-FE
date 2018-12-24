@@ -1,0 +1,16 @@
+
+main { 
+	flex-direction: column;
+}
+main .video {
+	width: 100%;
+}
+main .content {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

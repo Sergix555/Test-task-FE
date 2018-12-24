@@ -1,0 +1,6 @@
+.scroll {
+	left: 86%;
+}
+.triangle:after {
+	border-top: 22px solid #ff8141;
+}
